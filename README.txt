@@ -15,6 +15,7 @@ Available parameters:
 
 member_id: Member ID to display purchases for. If no member id is set will default to current logged in member.
 weblog_id: Restrict purchases to only a particular weblog.
+weblog_entry_id: Restrict purchases to only a particular weblog entry id.
 orderby: 'item' or 'date'. Defaults to 'date'.
 sort: 'asc' or 'desc'. Defaults to 'desc'.
 limit: Limit number of results
@@ -61,5 +62,6 @@ You can wrap the standard weblog tags within this plugin to retrieve all of the 
 Change Log
 ---------------------------
 
+1.0.2 - Added weblog_entry_id parameter. Added git version tag.
 1.0.1 - Fixed php error, fixed typos in documentation and updated.
 1.0.0 - Initial release.
